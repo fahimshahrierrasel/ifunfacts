@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD36E4D71F4D91E800339FDD /* FunFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36E4D61F4D91E800339FDD /* FunFacts.swift */; };
+		DD36E4D91F4D92AC00339FDD /* FactColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36E4D81F4D92AC00339FDD /* FactColor.swift */; };
 		DDDBE36C1EC8DD4E0010BE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDBE36B1EC8DD4E0010BE58 /* AppDelegate.swift */; };
 		DDDBE36E1EC8DD4E0010BE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDBE36D1EC8DD4E0010BE58 /* ViewController.swift */; };
 		DDDBE3711EC8DD4E0010BE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDBE36F1EC8DD4E0010BE58 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD36E4D61F4D91E800339FDD /* FunFacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunFacts.swift; sourceTree = "<group>"; };
+		DD36E4D81F4D92AC00339FDD /* FactColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactColor.swift; sourceTree = "<group>"; };
 		DDDBE3681EC8DD4E0010BE58 /* iFunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDBE36B1EC8DD4E0010BE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDDBE36D1EC8DD4E0010BE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				DDDBE37D1EC8DD840010BE58 /* OtherFiles */,
 				DDDBE36D1EC8DD4E0010BE58 /* ViewController.swift */,
 				DDDBE36F1EC8DD4E0010BE58 /* Main.storyboard */,
+				DD36E4D61F4D91E800339FDD /* FunFacts.swift */,
+				DD36E4D81F4D92AC00339FDD /* FactColor.swift */,
 			);
 			path = iFunFacts;
 			sourceTree = "<group>";
@@ -104,7 +110,6 @@
 				TargetAttributes = {
 					DDDBE3671EC8DD4E0010BE58 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 88Y892R3YX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -146,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDBE36E1EC8DD4E0010BE58 /* ViewController.swift in Sources */,
+				DD36E4D71F4D91E800339FDD /* FunFacts.swift in Sources */,
 				DDDBE36C1EC8DD4E0010BE58 /* AppDelegate.swift in Sources */,
+				DD36E4D91F4D92AC00339FDD /* FactColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 88Y892R3YX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iFunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.treebricks.iFunFacts;
@@ -284,7 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 88Y892R3YX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iFunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.treebricks.iFunFacts;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,13 +23,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqQ-Rk-NsR">
-                                <rect key="frame" x="139" y="574" width="97" height="48"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Hit it"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
-                                </userDefinedRuntimeAttributes>
+                                <rect key="frame" x="102" y="588" width="171" height="34"/>
+                                <color key="backgroundColor" red="0.96435862750000001" green="0.96618419479999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Another Fact"/>
                                 <connections>
                                     <action selector="funButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="27i-s7-ymL"/>
                                 </connections>
@@ -37,22 +35,21 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click &quot;Hit it&quot; to get Fun Facts" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="P2X-sr-REs">
                                 <rect key="frame" x="40" y="159" width="295" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.96435862750000001" green="0.96618419479999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="P2X-sr-REs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="139" id="0QG-gI-xYt"/>
+                            <constraint firstItem="P2X-sr-REs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="139" id="3Ni-wm-wgq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="P2X-sr-REs" secondAttribute="trailing" constant="24" id="FZ7-mF-fiC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sqQ-Rk-NsR" secondAttribute="bottom" constant="45" id="YRL-Lm-OKq"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="sqQ-Rk-NsR" secondAttribute="trailing" constant="123" id="l6Y-6O-ziI"/>
-                            <constraint firstItem="sqQ-Rk-NsR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="123" id="nZI-ID-A00"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sqQ-Rk-NsR" secondAttribute="trailing" constant="86" id="l6Y-6O-ziI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sqQ-Rk-NsR" secondAttribute="bottom" constant="45" id="mZn-Vo-Ugk"/>
+                            <constraint firstItem="sqQ-Rk-NsR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="86" id="nZI-ID-A00"/>
                             <constraint firstItem="P2X-sr-REs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="usV-Ou-dEf"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backgroundView" destination="8bC-Xf-vdC" id="5MP-uf-1GS"/>
                         <outlet property="funText" destination="P2X-sr-REs" id="yY2-8j-bTW"/>
                     </connections>
                 </viewController>
